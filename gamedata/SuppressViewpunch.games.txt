@@ -1,0 +1,32 @@
+"Games"
+{
+	"cstrike"
+	{
+		"Signatures"
+		{
+			"CGameMovement::PlayerRoughLandingEffects"
+			{
+				"library"		"server"
+				"linux"			"@_ZN13CGameMovement25PlayerRoughLandingEffectsEf"
+			}
+		}
+
+		"Functions"
+		{
+			"CGameMovement__PlayerRoughLandingEffects"
+			{
+				"signature"		"CGameMovement::PlayerRoughLandingEffects"
+				"callconv"		"thiscall"
+				"return"		"void"
+				"this"			"ignore"
+				"arguments"
+				{
+					"fvol"
+					{
+						"type"		"float"
+					}
+				}
+			}
+		}
+	}
+}
