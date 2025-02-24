@@ -10,7 +10,7 @@ public Plugin myinfo =
 	name 			= "SuppressViewpunch",
 	author 			= "xen",
 	description 	= "Suppresses viewpunch when a player slams into the ground.",
-	version 		= "1.0",
+	version 		= "1.1",
 	url 			= ""
 };
 
