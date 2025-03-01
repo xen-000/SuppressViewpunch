@@ -8,7 +8,9 @@
 			{
 				"library"		"server"
 				"linux"			"@_ZN13CGameMovement25PlayerRoughLandingEffectsEf.part.0"
-				"windows"		"\x55\x8B\xEC\x51\xF3\x0F\x10\x45\x08\x0F\x2F\x05"
+				"linux64"		"@_ZN13CGameMovement25PlayerRoughLandingEffectsEf.part.0"
+				"windows"		"\x55\x8B\xEC\xF3\x0F\x10\x45\x2A\x83\xEC\x0C"
+				"windows64"		"\x40\x57\x48\x83\xEC\x50\x0F\x29\x74\x24"
 			}
 		}
 
@@ -25,7 +27,10 @@
 					"fvol"
 					{
 						"type"		"float"
-						"register"	"xmm0"
+						"linux"
+						{
+							"register"	"xmm0"
+						}
 					}
 				}
 			}
